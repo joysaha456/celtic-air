@@ -1,0 +1,980 @@
+/* css for summarySection */
+.summarySection {
+    background-color: #fafbfb;
+    .summaryWrp {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 40px;
+        align-items: center;
+
+        .detailsImg {
+            border: 1px solid #dddddd;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 420px;
+            height: 450px;
+            border-radius: 4px;
+        }
+        .customMessageWrapper {
+            width: 100% !important;
+        }
+        .customMessage {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .filedContent {
+                display: block;
+                font-family: "Circular Std";
+                font-weight: normal;
+                font-size: 16px;
+                color: #626c73;
+                margin-bottom: 0;
+            }
+        }
+
+        .summaryWrp-info {
+            h2 {
+                font-size: 30px;
+                text-align: left;
+                color: #25272c;
+                font-family: "Circular Std";
+                font-weight: 500;
+                margin-bottom: 10px;
+            }
+
+            span {
+                font-family: "Circular Std";
+                font-weight: 700;
+                font-size: 32px;
+                color: #44ac7a;
+                margin-bottom: 20px;
+                display: block;
+            }
+
+            p {
+                font-family: "Lato", sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 28px;
+                color: #2f3032;
+                margin-bottom: 30px;
+            }
+
+            .addToCart {
+                .btn-fill {
+                    height: 50px;
+                    display: block;
+                    max-width: 300px;
+                    width: 100%;
+                    i {
+                        margin-right: 5px;
+                    }
+                }
+            }
+
+            .summaryInpfield {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 10px;
+                flex-wrap: wrap;
+
+                .flieldTextareaWrap {
+                    width: 100% !important;
+                }
+
+                .flieldWrp {
+                    font-family: CircularStd-Book;
+                    font-weight: normal;
+                    font-size: 14px;
+                    color: #5d6c72;
+                    width: 48%;
+                    margin-bottom: 20px;
+                    label {
+                        font-family: "Lato", sans-serif;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 28px;
+                        color: #2f3032;
+                        display: block;
+                        margin-bottom: 5px;
+                    }
+
+                    .selectField {
+                        font-family: CircularStd-Book;
+                        font-weight: normal;
+                        font-size: 16px;
+                        text-align: left;
+                        color: #25272c;
+                        min-height: 52px;
+                        border-radius: 6px;
+                        background: #fff;
+                        border: 1px solid #ebeced;
+                        width: 100%;
+                        -webkit-appearance: none;
+                        -moz-appearance: none;
+                        appearance: none;
+                        color: #596172;
+                        border-color: #ebebeb;
+                        padding: 0 0 0 25px;
+                        background-image: url("../img/caret-down.png");
+                        background-repeat: no-repeat;
+                        background-position: 95% center;
+                        background-color: #fff;
+                        &:focus {
+                            outline: none;
+                            border: 1px solid var(--mainColor);
+                        }
+                    }
+
+                    .main {
+                        margin-left: 5px;
+                        border: 1px solid #ebeced;
+                        padding: 0;
+                        margin-right: 30px;
+                        background-color: #fff;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        min-height: 52px;
+                        line-height: 52px;
+                        border-radius: 6px;
+                    }
+
+                    .counter {
+                        width: 45px;
+                        border-radius: 0px !important;
+                        text-align: center;
+                        background: #fff;
+                        margin: 0 5px;
+                        -webkit-appearance: none;
+                    }
+
+                    .up_count {
+                        margin-left: -4px;
+                        border-top-left-radius: 0px;
+                        border-bottom-left-radius: 0px;
+                    }
+
+                    .down_count {
+                        margin-right: -4px;
+                        border-top-right-radius: 0px;
+                        border-bottom-right-radius: 0px;
+                    }
+
+                    .btn-info,
+                    .counter {
+                        background-color: transparent;
+                        border: none;
+                        padding: 0;
+                        margin: 0;
+                        cursor: pointer;
+                        font-size: 17px;
+                        font-weight: 600;
+
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+
+                    input::-webkit-outer-spin-button,
+                    input::-webkit-inner-spin-button {
+                        -webkit-appearance: none;
+                        margin: 0;
+                    }
+                    input[type="number"] {
+                        -moz-appearance: textfield;
+                    }
+                    .counter {
+                        width: 50%;
+                        border-left: 1px solid #ebeced;
+                        border-right: 1px solid #ebeced;
+                        min-height: 52px;
+                        line-height: 52px;
+                    }
+
+                    .btn-quantity {
+                        width: 25%;
+                        height: 30px;
+                        background-color: transparent;
+                        cursor: pointer;
+                        outline: none;
+                        border: 0;
+                    }
+
+                    .filedContainer {
+                        display: block;
+                        position: relative;
+                        padding-left: 45px;
+                        margin-bottom: 0;
+                        cursor: pointer;
+                        font-size: 22px;
+                        -webkit-user-select: none;
+                        -moz-user-select: none;
+                        -ms-user-select: none;
+                        user-select: none;
+                        min-height: 52px;
+                        line-height: 52px;
+                        border-radius: 6px;
+                        background: #fff;
+                        border: 1px solid #ebeced;
+                        width: 48%;
+                    }
+
+                    /* Hide the browser's default radio button */
+                    .filedContainer input {
+                        position: absolute;
+                        opacity: 0;
+                        cursor: pointer;
+                    }
+
+                    /* Create a custom radio button */
+                    .checkmark {
+                        position: absolute;
+                        top: 50%;
+                        left: 15px;
+                        height: 20px;
+                        width: 20px;
+                        border-radius: 50%;
+                        margin-bottom: 0;
+                        transform: translateY(-50%);
+                        border: 1px solid #ebeced;
+                    }
+                    .filedContainer:hover input ~ .checkmark {
+                        background-color: var(--mainColor);
+                    }
+                    .filedContainer input:checked ~ .checkmark {
+                        background-color: var(--mainColor);
+                        border-color: var(--mainColor);
+                    }
+                    .checkmark:after {
+                        content: "";
+                        position: absolute;
+                        display: none;
+                    }
+                    /* Show the indicator (dot/circle) when checked */
+                    .filedContainer input:checked ~ .checkmark:after {
+                        display: block;
+                    }
+
+                    /* Style the indicator (dot/circle) */
+                    .filedContainer .checkmark:after {
+                        top: 6px;
+                        left: 6px;
+                        width: 6px;
+                        height: 6px;
+                        border-radius: 50%;
+                        background: white;
+                    }
+
+                    .flieldTextarea {
+                        font-family: "Circular Std";
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #5d6c72;
+                        min-height: 104px;
+                        border-radius: 6px;
+                        background: #fff;
+                        border: 1px solid #ebeced;
+                        resize: none;
+                        width: 100%;
+                        padding: 15px;
+
+                        &:focus {
+                            border: 1px solid var(--mainColor);
+                            outline: none !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* css for summarySection -END*/
+
+/* css for discountWrp */
+
+.discountWrp {
+    padding: 70px 0;
+    .discountWrp-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 40px;
+        align-items: center;
+        p {
+            font-family: "Circular Std";
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            color: #25272b;
+            margin-bottom: 0;
+        }
+    }
+    &-info {
+        display: flex;
+        align-items: center;
+        ul {
+            margin-left: 30px;
+            li {
+                font-family: "Circular Std";
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 30px;
+                color: #25272b;
+                list-style: none;
+            }
+        }
+    }
+}
+
+/* css for discountWrp -END*/
+
+/* Ordered Page Style */
+
+/* tab designed */
+
+.tab-menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 40px;
+    span {
+        font-family: "Circular Std";
+        font-weight: 500;
+        font-size: 16px;
+        color: #26272c;
+        text-decoration: none;
+        padding: 0 40px;
+        border-bottom: 1px solid #d8d8d8;
+        padding-bottom: 10px;
+        display: inline-block;
+        margin-left: -5px;
+        cursor: pointer;
+    }
+    .active-a {
+        border-bottom: 4px solid #588d7d;
+    }
+}
+
+.tab {
+    display: none;
+}
+
+.tab-active {
+    display: block;
+}
+/* end tb designed */
+.orderTableWrapper {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+.orderedWrapper {
+    margin: 0 auto 40px;
+    border-bottom: 1px solid #979797;
+    &:last-child {
+        border-bottom: 0;
+    }
+    .ordereTitle {
+        margin-bottom: 25px;
+        h2 {
+            font-family: "Circular Std";
+            font-weight: normal;
+            font-size: 18px;
+            color: #26272c;
+        }
+    }
+    .singleOrder {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #ebeced;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        .orderDetails {
+            display: flex;
+            align-items: center;
+            width: 70%;
+        }
+    }
+    .orderImg {
+        border: 1px solid #ebeced;
+        border-radius: 4px;
+        max-width: 50px;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        margin-right: 20px;
+        padding-top: 5px;
+    }
+    .orderInfo {
+        h3 {
+            font-family: "Circular Std";
+            font-weight: normal;
+            font-size: 16px;
+            color: #25272b;
+            margin-bottom: 5px;
+        }
+        span {
+            font-family: "Circular Std";
+            font-weight: normal;
+            font-size: 14px;
+            color: #626c73;
+        }
+    }
+    .orderPrice {
+        p {
+            font-family: "Circular Std";
+            font-weight: normal;
+            font-size: 15px;
+            color: #25272b;
+        }
+    }
+    .totalOrder {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 35px 0;
+        span {
+            font-family: "Circular Std";
+            font-weight: 500;
+            font-size: 16px;
+            text-align: left;
+            color: #303033;
+        }
+        .totalAmount {
+            font-family: "Circular Std";
+            font-weight: 500;
+            font-size: 18px;
+            text-align: right;
+            color: var(--mainColor);
+        }
+    }
+}
+/* Ordered Page Style  */
+
+.inpFieldWrapper {
+    .inpFields {
+        font-family: "Circular Std";
+        font-weight: 500;
+        font-size: 16px;
+        color: #5f6c72;
+        min-height: 52px;
+        border-radius: 6px;
+        background: #fafbfb;
+        border: 1px solid #ebeced;
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 0 15px;
+        &:focus {
+            outline: none;
+            border: 1px solid var(--mainColor);
+        }
+    }
+
+    .btn-fill {
+        width: 100%;
+        min-height: 52px;
+        font-family: "Circular Std";
+        font-weight: 500;
+        font-size: 16px;
+        color: #fff;
+    }
+}
+
+/* Cardpage Style */
+
+.cardWrapper {
+    ul {
+        li {
+            list-style: none;
+            display: grid;
+            grid-template-columns: 1fr 3fr 1fr 2fr 2fr 2fr 1fr;
+            background-color: #fafbfb;
+            padding: 15px;
+            align-items: center;
+            margin-bottom: 15px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        .cardHead {
+            background-color: transparent;
+        }
+    }
+    .singleOrder {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .orderDetails {
+            display: flex;
+            align-items: center;
+            width: 70%;
+        }
+    }
+    .cardImg {
+        border: 1px solid #ebeced;
+        border-radius: 4px;
+        max-width: 50px;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        margin-right: 20px;
+        padding-top: 5px;
+        background-color: #fff;
+    }
+    .cardInfo {
+        h3 {
+            font-family: "Circular Std";
+            font-weight: 500;
+            font-size: 18px;
+            color: #26272d;
+        }
+    }
+    .gridItem {
+        p {
+            font-family: "Circular Std";
+            font-weight: 500;
+            font-size: 16px;
+            color: #303033;
+        }
+        .selectField {
+            font-family: CircularStd-Book;
+            font-weight: normal;
+            font-size: 16px;
+            text-align: left;
+            color: #25272c;
+            min-height: 52px;
+            border-radius: 6px;
+            background: #fff;
+            border: 1px solid #ebeced;
+            width: 100%;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            color: #596172;
+            border-color: #ebebeb;
+            padding: 0 0 0 25px;
+            background-image: url("../img/caret-down.png");
+            background-repeat: no-repeat;
+            background-position: 95% center;
+            background-color: #fff;
+            &:focus {
+                outline: none;
+                border: 1px solid var(--mainColor);
+            }
+        }
+
+        .main {
+            margin-left: 5px;
+            border: 1px solid #ebeced;
+            padding: 0;
+            margin-right: 30px;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 52px;
+            line-height: 52px;
+            border-radius: 6px;
+        }
+
+        .counter {
+            width: 45px;
+            border-radius: 0px !important;
+            text-align: center;
+            background: #fff;
+            margin: 0 5px;
+            -webkit-appearance: none;
+        }
+
+        .up_count {
+            margin-left: -4px;
+            border-top-left-radius: 0px;
+            border-bottom-left-radius: 0px;
+        }
+
+        .down_count {
+            margin-right: -4px;
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+
+        .btn-info,
+        .counter {
+            background-color: transparent;
+            border: none;
+            padding: 0;
+            margin: 0;
+            cursor: pointer;
+            font-size: 17px;
+            font-weight: 600;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        input[type="number"] {
+            -moz-appearance: textfield;
+        }
+        .counter {
+            width: 50%;
+            border-left: 1px solid #ebeced;
+            border-right: 1px solid #ebeced;
+            min-height: 52px;
+            line-height: 52px;
+        }
+
+        .btn-quantity {
+            width: 25%;
+            height: 30px;
+            background-color: transparent;
+            cursor: pointer;
+            outline: none;
+            border: 0;
+        }
+        .discount {
+            font-family: "Circular Std";
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 20px;
+            color: #26272c;
+            border-radius: 6px;
+            background: #e6f3f1;
+            padding: 10px;
+            text-align: center;
+        }
+        .price {
+            font-family: "Circular Std";
+            font-weight: 700;
+            font-size: 18px;
+            color: #44ac7a;
+            text-align: center;
+        }
+        .close {
+            text-align: center;
+        }
+    }
+}
+.subtoatlWrapper {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    .inpField {
+        min-height: 52px;
+        line-height: 52px;
+        background-color: #fafbfb;
+        border: 1px solid #ebeced;
+        border-radius: 6px;
+        padding: 0 15px;
+    }
+    .inpBtn {
+        background-color: #d2dae2;
+        border-radius: 6px;
+        min-height: 52px;
+        padding: 0 20px;
+        margin-left: 20px;
+        &:hover {
+            background-color: #d2dae2;
+        }
+    }
+
+    p {
+        margin-top: 15px;
+        font-family: "Circular Std";
+        font-weight: 500;
+        font-size: 14px;
+        color: #686c77;
+    }
+}
+.cardSection {
+    padding: 70px 0;
+}
+.subtotalDetails {
+    width: 35%;
+    ul {
+        li {
+            list-style: none;
+            padding: 15px 0;
+            border-bottom: 1px solid #ebeced;
+            display: flex;
+            justify-content: space-between;
+            span {
+                font-family: "Circular Std";
+                font-weight: 500;
+                font-size: 16px;
+                color: #303033;
+            }
+        }
+    }
+    .btn-fill {
+        font-family: "Circular Std";
+        font-weight: 500;
+        font-size: 16px;
+        color: #fff;
+        width: 100%;
+        margin-top: 30px;
+        min-height: 52px;
+        line-height: 52px;
+        padding: 0;
+    }
+}
+.shippingWrpper {
+    max-width: 650px;
+    width: 100%;
+    h3 {
+        font-family: "Circular Std";
+        font-weight: normal;
+        font-size: 18px;
+        color: #25272b;
+        margin-bottom: 20px;
+    }
+    .inpFieldWrapper {
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .inpFields {
+                width: 48%;
+            }
+        }
+    }
+    .optionalInp {
+        min-height: 104px;
+        width: 100% !important;
+    }
+
+    .shippingContainer {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        cursor: pointer;
+        font-family: "Circular Std";
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #696c78;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    /* Hide the browser's default checkbox */
+    .shippingContainer input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
+
+    /* Create a custom checkbox */
+    .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: #eee;
+        border-radius: 4px;
+    }
+
+    /* On mouse-over, add a grey background color */
+    .shippingContainer:hover input ~ .checkmark {
+        background-color: #ccc;
+    }
+
+    /* When the checkbox is checked, add a blue background */
+    .shippingContainer input:checked ~ .checkmark {
+        background-color: #52ce93;
+    }
+
+    /* Create the checkmark/indicator (hidden when not checked) */
+    .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    /* Show the checkmark when checked */
+    .shippingContainer input:checked ~ .checkmark:after {
+        display: block;
+    }
+
+    /* Style the checkmark/indicator */
+    .shippingContainer .checkmark:after {
+        left: 9px;
+        top: 5px;
+        width: 5px;
+        height: 10px;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+}
+/* End Cardpage Style */
+
+/* Inner Page Style */
+/* Terms & Condition */
+.termsConditionSection {
+    padding: 70px 0;
+    .contentWrapper {
+        h3 {
+            font-size: 22px;
+            line-height: calc(100% + 10px);
+            margin-bottom: 20px;
+            color: #282732;
+            margin-top: 25px;
+        }
+        h4 {
+            font-size: 18px;
+            line-height: calc(100% + 10px);
+            margin-bottom: 20px;
+            color: #282732;
+            margin-top: 25px;
+        }
+        p {
+            font-family: "Lato", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: calc(100% + 16px);
+            line-height: 30px;
+            color: #282732;
+            margin-bottom: 15px;
+        }
+
+        .metaInfo {
+            margin-bottom: 20px;
+            span {
+                display: block;
+                margin-bottom: 25px;
+            }
+            p,
+            span {
+                font-family: "Lato", sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: calc(100% + 16px);
+                line-height: 30px;
+                color: #282732;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    .contentInfoWrapper {
+        ul {
+            counter-reset: autoIncre;
+            li {
+                font-family: "Lato", sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: calc(100% + 16px) !important;
+                line-height: 30px;
+                color: #282732;
+                margin-bottom: 15px;
+                list-style: none;
+
+                a {
+                    color: #6aac72;
+                }
+                ul {
+                    margin-top: 25px;
+                }
+                li {
+                    margin-bottom: 15px;
+                    font-family: "Lato", sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: calc(100% + 16px);
+                    color: #303033;
+                    list-style: none;
+                }
+                &::before {
+                    counter-increment: autoIncre;
+                    content: counters(autoIncre, ".") " ";
+                }
+                table,
+                th,
+                td {
+                    border: 1px solid #d7d7d7;
+                    border-collapse: collapse;
+                }
+                th,
+                td {
+                    padding: 20px;
+                }
+                table {
+                    margin: 40px 0;
+                    tr {
+                        td {
+                            border: 1px solid #d7d7d7;
+                            border-collapse: collapse;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .controllerWrapper {
+        li {
+            color: #a2b000;
+            margin-bottom: 10px;
+            list-style: none;
+            &::before {
+                color: #a2b000;
+            }
+            a {
+                font-size: 18px;
+                font-weight: 400;
+                font-family: "Lato", sans-serif;
+                font-weight: normal;
+                line-height: 30px;
+                color: #a2b000 !important;
+                text-decoration: none;
+            }
+        }
+    }
+    .scrollItem {
+        ul{
+            li {
+                &::before{
+                    display: none;
+                }
+                list-style: inside;
+            }
+        }
+    }
+}
+
+.shipping-delivery {
+    .contentInfoWrapper {
+        ul {
+            li {
+                list-style: none;
+                &::before {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+/* End Terms & Condition */
+
+/* End Inner Page Style */

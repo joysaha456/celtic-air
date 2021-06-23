@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>times</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4.-Cart-preview" transform="translate(-1398.000000, -374.000000)" fill="#5E666F" fill-rule="nonzero">
+            <g id="Group-24" transform="translate(1082.000000, 0.000000)">
+                <g id="Group-20-Copy" transform="translate(16.000000, 355.000000)">
+                    <g id="Group">
+                        <g id="times" transform="translate(300.000000, 19.000000)">
+                            <path d="M7.27275,6 L11.11875,2.154 L11.911875,1.360875 C12.028875,1.243875 12.028875,1.05375 11.911875,0.93675 L11.06325,0.088125 C10.94625,-0.028875 10.756125,-0.028875 10.639125,0.088125 L6,4.72725 L1.360875,0.08775 C1.243875,-0.02925 1.05375,-0.02925 0.93675,0.08775 L0.08775,0.936375 C-0.02925,1.053375 -0.02925,1.2435 0.08775,1.3605 L4.72725,6 L0.08775,10.639125 C-0.02925,10.756125 -0.02925,10.94625 0.08775,11.06325 L0.936375,11.911875 C1.053375,12.028875 1.2435,12.028875 1.3605,11.911875 L6,7.27275 L9.846,11.11875 L10.639125,11.911875 C10.756125,12.028875 10.94625,12.028875 11.06325,11.911875 L11.911875,11.06325 C12.028875,10.94625 12.028875,10.756125 11.911875,10.639125 L7.27275,6 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="10px" viewBox="0 0 14 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>006-email</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.-Product-page---Pure-oxygen" transform="translate(-445.000000, -2066.000000)" fill="#E6F2F5" fill-rule="nonzero">
+            <g id="Group-6-Copy-4" transform="translate(0.000000, 1909.000000)">
+                <g id="Group-13" transform="translate(445.000000, 60.000000)">
+                    <g id="006-email" transform="translate(0.000000, 97.000000)">
+                        <polygon id="Shape" points="9.28025 4.88425 14 7.868 14 1.7745"></polygon>
+                        <polygon id="Shape" points="0 1.7745 0 7.868 4.71975 4.88425"></polygon>
+                        <path d="M13.125,0 L0.875,0 C0.438375,0 0.091875,0.3255 0.02625,0.744625 L7,5.33925 L13.97375,0.744625 C13.908125,0.3255 13.561625,0 13.125,0 Z" id="Shape"></path>
+                        <path d="M8.47875,5.41275 L7.240625,6.22825 C7.167125,6.276375 7.084,6.3 7,6.3 C6.916,6.3 6.832875,6.276375 6.759375,6.22825 L5.52125,5.411875 L0.028,8.8865 C0.095375,9.302125 0.440125,9.625 0.875,9.625 L13.125,9.625 C13.559875,9.625 13.904625,9.302125 13.972,8.8865 L8.47875,5.41275 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
