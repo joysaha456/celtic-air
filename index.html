@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<!--<![endif]-->
+<!--[if gte IE 9] <style type="text/css"> .gradient {filter: none;}</style><![endif]-->
+<!--[if !IE]><html lang="en"><![endif]-->
+<html lang="en-US" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Required meta tags for responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Favicon and touch icons -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png" />
+    <meta name="misapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="" />
+    <meta name="twitter:site" content="@twitter_username" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="" />
+    <!-- Open Graph data -->
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:site_name" content="R" />
+    <meta property="fb:admins" content="Facebook numeric ID" />
+    <!-- gmail verification -->
+    <meta name="google-site-verification" content="" />
+    <!-- Website title -->
+    <title>Home</title>
+    <link rel="stylesheet" href="assets/css/all.css" />
+    <link rel="stylesheet" href="assets/css/normalize.min.css" />
+    <link rel="stylesheet" href="assets/css/fonts-import.css" />
+    <link rel="stylesheet" href="assets/css/modal.css" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!-- jQuery (necessary for jQuery plugins) -->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+    <!-- Main Coding Start Here -->
+
+
+
+
+
+    <!-- modalFigure -->
+    <figure id="modalFigureWrapper">
+        <div id="login" class="modalMainFigure">
+            <div class="modal-background">
+                <div class="modal">
+                    <button class="btn-remove-modal">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <div class="modal-body">
+                        <!-- login-body  -->
+                        <div class="from-body login-body displayShow">
+                            <h3 class="modal-body-title">Log In</h3>
+                            <form class="auth-form login-form" action="" method="POST">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="" placeholder="Email" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="" placeholder="Password" />
+                                </div>
+                                <div class="form-group col-grid">
+                                    <a href="#" id="forgot">Forgot Password?</a>
+                                    <a href="#" id="register">Create Account</a>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn-fill btn-submit">Log In</button>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- register-body -->
+                        <div class="from-body register-body">
+                            <h3 class="modal-body-title">Register</h3>
+                            <form class="auth-form register-form" action="" method="POST">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="" placeholder="Email" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="" placeholder="Password" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="" placeholder="Confirm Password" />
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn-fill btn-submit">Create an Account</button>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- forgot-body -->
+                        <div class="from-body forgot-body">
+                            <h3 class="modal-body-title">Restore Password</h3>
+                            <form class="auth-form register-form" action="" method="POST">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="" placeholder="Email" />
+                                </div>
+                                <div class="form-group">
+                                    <p>
+                                        You will receive an email with instructions to restore your password.
+                                    </p>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn-fill btn-submit">Restore Password</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </figure>
+    <!--/ modalFigure -->
+
+
+
+
+
+    <!-- Markup for header -->
+    <header class="header">
+        <div class="container">
+            <div class="headerGrids">
+                <div class="gridItem logo">
+                    <a href="index.html">
+                        <img src="assets/img/icons/main-logo.svg" alt="logo" class="img-fluid" />
+                    </a>
+                </div>
+                <nav class="gridItem navigation">
+                    <ul id="main-menu">
+                        <li><a href="#">Our Store</a></li>
+                        <li><a href="#">Contact Us</a> </li>
+                        <li><a href="#" class="btn-modal" data-modal-id="login">Login</a></li>
+                        <li class="cartPreview cartPreviewToggle">
+                            <a href="#">
+                                <img src="assets/img/icons/003-cart.svg" alt="" class="img-fluid">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--/ Markup for header -->
+
+
+
+
+
+    <!-- Markup for pageBanner -->
+    <section id="pageBanner" class="pageBanner" style="background-image: url(assets/img/page-banner.png);">
+        <div class="container">
+            <div class="pageBannerInner">
+                <!-- <h1 class="pageBannerInner-title">Celtic Air </h1> -->
+                <img src="assets/img/icons/main-logo-byText-2.svg" alt="logo" class="img-fluid" />
+                <h2 class="pageBannerInner-subTitle">
+                    Its air From Ireland
+                </h2>
+            </div>
+        </div>
+    </section>
+    <!--/ Markup for pageBanner -->
+
+
+
+    <!-- Markup for celticAirBrings -->
+    <section class="celticAirBrings sectionPadding">
+        <div class="container">
+            <div class="celticAirBringsGrids">
+                <div class="gridItem">
+                    <div class="celticAirBringsContent">
+                        <h3>Celtic Air brings you air from Ireland</h3>
+                        <p>We’ve gathered air from all four corners of our cornerless country, to bring you and your
+                            loved ones the joy of owning and breathing fresh Irish air.
+                            Ireland is known the world over for its beautiful countryside and unspoiled nature, and
+                            nothing better represents that than Celtic Air’s pure Irish air. Our novelty gift jars are
+                            perfect for those looking for something different to gift, and provide a constant reminder
+                            of the beauty and purity of Ireland and its environment.
+                            If you’re looking for an air supplement, Celtic Air’s range of air offers you air captured
+                            from one of Ireland’s many unspoiled environments. Depending on your need, Celtic Air can
+                            invigorate you, help relieve respiratory symptoms, or relax you into a good night’s sleep.
+                        </p> <br />
+                        <p>So please look at our products below or visit our store, and treat yourself or a loved one
+                            to the best air in the world.</p>
+                    </div>
+                </div>
+                <div class="gridItem">
+                    <div class="celticAirBringsImg">
+                        <img src="assets/img/Bitmap.png" alt="" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/ Markup for celticAirBrings -->
+
+
+
+
+    <!-- Markup for productShowcase -->
+    <section class="productShowcase sectionPadding bgImg"
+        style="background-image: url(assets/img/originalRange-bg.png);">
+        <div class="container">
+            <div class="sectionTitle">
+                <h2 class="title text-white">Original Range</h2>
+                <p class="subTitle text-white">Brought to you from the four corners of Ireland, Celtic Air’s Originals
+                    range
+                    capture’s the essence of Ireland and delivers it to you for your benefit and pleasure. We’ve a
+                    breath of Irish for all your moods, Irish Mist, Irish Meadow, Wild Mountain or Irish Storm. So,
+                    please visit our store and indulge in the best air in the world.</p>
+            </div>
+            <div class="productShowcaseGrids">
+                <div class="gridItem">
+                    <div class="productShowcaseItem">
+                        <div class="showcaseImg">
+                            <img src="assets/img/product-1.png" alt="" class="img-fluid" />
+                        </div>
+                        <a href="#" class="productName">Irish Mist</a>
+                        <h3 class="productPrice">$25</h3>
+                        <div class="addToCart">
+                            <button class="btn-fill">Add to Cart</button>
+                            <div class="form-group">
+                                <label for="quantity">Qty:</label>
+                                <select class="form-control" id="quantity">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gridItem">
+                    <div class="productShowcaseItem">
+                        <div class="showcaseImg">
+                            <img src="assets/img/product-1.png" alt="" class="img-fluid" />
+                        </div>
+                        <a href="#" class="productName">Wild Mountain</a>
+                        <h3 class="productPrice">$25</h3>
+                        <div class="addToCart">
+                            <button class="btn-fill">Add to Cart</button>
+                            <div class="form-group">
+                                <label for="quantity">Qty:</label>
+                                <select class="form-control" id="quantity">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gridItem">
+                    <div class="productShowcaseItem">
+                        <div class="showcaseImg">
+                            <img src="assets/img/product-1.png" alt="" class="img-fluid" />
+                        </div>
+                        <a href="#" class="productName">Irish Meadow</a>
+                        <h3 class="productPrice">$25</h3>
+                        <div class="addToCart">
+                            <button class="btn-fill">Add to Cart</button>
+                            <div class="form-group">
+                                <label for="quantity">Qty:</label>
+                                <select class="form-control" id="quantity">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gridItem">
+                    <div class="productShowcaseItem">
+                        <div class="showcaseImg">
+                            <img src="assets/img/product-1.png" alt="" class="img-fluid" />
+                        </div>
+                        <a href="#" class="productName">Irish Storm</a>
+                        <h3 class="productPrice">$25</h3>
+                        <div class="addToCart">
+                            <button class="btn-fill">Add to Cart</button>
+                            <div class="form-group">
+                                <label for="quantity">Qty:</label>
+                                <select class="form-control" id="quantity">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/ Markup for productShowcase -->
+
+
+
+
+    <!-- Markup for productShowcase -->
+    <section class="productShowcase sectionPadding bgColor-1">
+        <div class="container">
+            <div class="sectionTitle">
+                <h2 class="title text-semiBlueLight">Seasonal Range</h2>
+                <p class="subTitle text-semiBlueLight">Ireland is a country of seasons, and whether it’s her cold crisp
+                    winters, long
+                    idyllic summers, the promise of spring, or the beauty of Autumn’s days, Celtic Air brings you the
+                    scents and moods offered by Ireland at these times of year. Visit our store and treat yourself to a
+                    healthy escape.</p>
+            </div>
+            <div class="productShowcaseGrids">
+                <div class="gridItem">
+                    <div class="productShowcaseItem">
+                        <div class="showcaseImg">
+                            <img src="assets/img/product-1.png" alt="" class="img-fluid" />
+                        </div>
+                        <a href="#" class="productName">Spring</a>
+                        <h3 class="productPrice">$25</h3>
+                        <div class="addToCart">
+                            <button class="btn-fill">Add to Cart</button>
+                            <div class="form-group">
+                                <label for="quantity">Qty:</label>
+                                <select class="form-control" id="quantity">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gridItem">
+                    <div class="productShowcaseItem">
+                        <div class="showcaseImg">
+                            <img src="assets/img/product-1.png" alt="" class="img-fluid" />
+                        </div>
+                        <a href="#" class="productName">Summer</a>
+                        <h3 class="productPrice">$25</h3>
+                        <div class="addToCart">
+                            <button class="btn-fill">Add to Cart</button>
+                            <div class="form-group">
+                                <label for="quantity">Qty:</label>
+                                <select class="form-control" id="quantity">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gridItem">
+                    <div class="productShowcaseItem">
+                        <div class="showcaseImg">
+                            <img src="assets/img/product-1.png" alt="" class="img-fluid" />
+                        </div>
+                        <a href="#" class="productName">Autumn</a>
+                        <h3 class="productPrice">$25</h3>
+                        <div class="addToCart">
+                            <button class="btn-fill">Add to Cart</button>
+                            <div class="form-group">
+                                <label for="quantity">Qty:</label>
+                                <select class="form-control" id="quantity">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gridItem">
+                    <div class="productShowcaseItem">
+                        <div class="showcaseImg">
+                            <img src="assets/img/product-1.png" alt="" class="img-fluid" />
+                        </div>
+                        <a href="#" class="productName">Winter</a>
+                        <h3 class="productPrice">$25</h3>
+                        <div class="addToCart">
+                            <button class="btn-fill">Add to Cart</button>
+                            <div class="form-group">
+                                <label for="quantity">Qty:</label>
+                                <select class="form-control" id="quantity">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/ Markup for productShowcase -->
+
+
+
+
+    <!-- Markup for productShowcase -->
+    <section class="productShowcase sectionPadding bgColor-2">
+        <div class="container">
+            <div class="sectionTitle">
+                <h2 class="title text-semiBlueLight">Pure Oxygen</h2>
+                <p class="subTitle text-semiBlueLight">Celtic Air’s goals are to not only bring our customers the purest
+                    Irish Air, Celtic Air also offer you Celtic Air Oxygen. Our Oxygen range of products promise to
+                    invigorate your mind and body, will improve your respiration, oxygenate cells, assist concentration
+                    and aid recovery from injury and illness. </p>
+            </div>
+            <div class="productShowcaseGrids">
+                <div class="gridItem">
+                    <div class="productShowcaseItem">
+                        <div class="showcaseImg">
+                            <img src="assets/img/product-1.png" alt="" class="img-fluid" />
+                        </div>
+                        <a href="#" class="productName">Standard Can</a>
+                        <h3 class="productPrice">$25</h3>
+                        <div class="addToCart">
+                            <button class="btn-fill">Add to Cart</button>
+                            <div class="form-group">
+                                <label for="quantity">Qty:</label>
+                                <select class="form-control" id="quantity">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gridItem">
+                    <div class="productShowcaseItem">
+                        <div class="showcaseImg">
+                            <img src="assets/img/product-1.png" alt="" class="img-fluid" />
+                        </div>
+                        <a href="#" class="productName">Mini Can</a>
+                        <h3 class="productPrice">$25</h3>
+                        <div class="addToCart">
+                            <button class="btn-fill">Add to Cart</button>
+                            <div class="form-group">
+                                <label for="quantity">Qty:</label>
+                                <select class="form-control" id="quantity">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gridItem">
+                    <div class="productShowcaseItem">
+                        <div class="showcaseImg">
+                            <img src="assets/img/product-2.png" alt="" class="img-fluid" />
+                        </div>
+                        <a href="#" class="productName">Standard Gift Jar</a>
+                        <h3 class="productPrice">$45 - $55</h3>
+                        <div class="addToCart">
+                            <button class="btn-fill">Add to Cart</button>
+                            <div class="form-group">
+                                <label for="quantity">Qty:</label>
+                                <select class="form-control" id="quantity">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gridItem">
+                    <div class="productShowcaseItem">
+                        <div class="showcaseImg">
+                            <img src="assets/img/product-2.png" alt="" class="img-fluid" />
+                        </div>
+                        <a href="#" class="productName">Standard Gift Jar</a>
+                        <h3 class="productPrice">$45 - $55</h3>
+                        <div class="addToCart">
+                            <button class="btn-fill">Add to Cart</button>
+                            <div class="form-group">
+                                <label for="quantity">Qty:</label>
+                                <select class="form-control" id="quantity">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/ Markup for productShowcase -->
+
+
+
+
+    <!-- Markup for feature -->
+    <section class="feature sectionPadding">
+        <div class="container">
+            <div class="featureGrids">
+                <div class="gridItem">
+                    <div class="featureItem">
+                        <img src="assets/img/feature-1.png" alt="featureIconImg" class="img-fluid" />
+                        <h4>Certified & Proven Irish Quality</h4>
+                    </div>
+                </div>
+                <div class="gridItem">
+                    <div class="featureItem">
+                        <img src="assets/img/feature-2.png" alt="featureIconImg" class="img-fluid" />
+                        <h4>Flexible discounts for everyone</h4>
+                    </div>
+                </div>
+                <div class="gridItem">
+                    <div class="featureItem">
+                        <img src="assets/img/feature-3.png" alt="featureIconImg" class="img-fluid" />
+                        <h4>Fast domestic & international shipping</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/ Markup for feature -->
+
+
+
+    <!-- Markup for newsletter -->
+    <section class="newsletter sectionPadding" style="background-image: url(assets/img/newsletter-bg.png);">
+        <div class="container">
+            <div class="newsletterGrids">
+                <div class="gridItem">
+                    <h3 class="newsletterTitle">Stay fresh & updated</h3>
+                </div>
+                <form class="gridItem newsletterForm" action="" method="POST">
+                    <div class="form-group">
+                        <input type="email" class="control form-control" id="exampleInputEmail" placeholder="Email" />
+                        <button type="submit" class="control btn-fill">Subscribe to our Newsletter</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Markup for newsletter -->
+
+
+
+    <!-- Markup for instagramPost -->
+    <section class="instagramPost sectionPadding">
+        <div class="container">
+            <div class="sectionTitle">
+                <h2 class="title">Latest Instagram posts</h2>
+            </div>
+            <div class="instagramPostGrids">
+                <a href="#" class="gridItem">
+                    <img src="assets/img/instagramPost-1.png" alt="" class="img-fluid" />
+                </a>
+                <a href="#" class="gridItem">
+                    <img src="assets/img/instagramPost-2.png" alt="" class="img-fluid" />
+                </a>
+                <a href="#" class="gridItem">
+                    <img src="assets/img/instagramPost-3.png" alt="" class="img-fluid" />
+                </a>
+                <a href="#" class="gridItem">
+                    <img src="assets/img/instagramPost-4.png" alt="" class="img-fluid" />
+                </a>
+                <a href="#" class="gridItem">
+                    <img src="assets/img/instagramPost-5.png" alt="" class="img-fluid" />
+                </a>
+                <a href="#" class="gridItem">
+                    <img src="assets/img/instagramPost-6.png" alt="" class="img-fluid" />
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--/ Markup for instagramPost -->
+
+
+
+    <!-- Markup for contact -->
+    <section class="contact sectionPadding">
+        <div class="container">
+            <div class="sectionTitle">
+                <h2 class="title">
+                    Got a Question? <br />
+                    We might have the answer
+                </h2>
+            </div>
+            <div class="contactForm">
+                <form>
+                    <div class="form-group col-grid">
+                        <input type="text" class="form-control" id="" placeholder="Name" />
+                        <input type="email" class="form-control" id="" placeholder="Email" />
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control form-control-textarea" id="" rows="10"
+                            placeholder="Message..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn-fill">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--/ Markup for contact -->
+
+
+
+
+    <!-- Markup for footer -->
+    <footer class="footer">
+        <div class="footerTop sectionPadding">
+            <div class="container">
+                <div class="footerTopGrids">
+                    <div class="gridItem">
+                        <a href="index.html" class="footerLogo">
+                            <img src="assets/img/icons/logowhite.svg" alt="footer-logo" class="img-fluid" />
+                        </a>
+                    </div>
+                    <div class="gridItem">
+                        <div class="footerBox">
+                            <h3 class="footerBoxTitle">Our Address</h3>
+                            <ul class="footerBoxList">
+                                <li>
+                                    <i class="icon fas fa-map-marker-alt"></i>
+                                    <a href="#">
+                                        180 Merrion Square <br /> Dublin, Ireland
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="icon fas fa-envelope"></i>
+                                    <a href="mailto:cs@celticair.ie">
+                                        cs@celticair.ie
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="icon fas fa-phone-alt"></i>
+                                    <a href="tel:+35318080028">
+                                        +353 1 8080 028
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="gridItem">
+                        <div class="footerBox">
+                            <h3 class="footerBoxTitle">Help & Support</h3>
+                            <ul class="footerBoxList notGrid">
+                                <li>
+                                    <a href="#">
+                                        Terms & Conditions
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Returns & Refunds
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Shipping & Delivery
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Privacy Policy
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        FAQs
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="gridItem">
+                        <div class="footerBox">
+                            <h3 class="footerBoxTitle">Follow us on Social Media</h3>
+                            <ul class="socialMedia">
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fab fa-pinterest-p"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <div class="container">
+                <div class="footerBottomGrids">
+                    <p>Copyright 2020 © Celtic Air</p>
+                    <ul>
+                        <li>
+                            <a href="#"><img src="assets/img/visa-logo.png" alt="" class="img-fluid" /></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="assets/img/mastercard.png" alt="" class="img-fluid" /></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="assets/img/paypal.png" alt="" class="img-fluid" /></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/ Markup for footer -->
+
+
+
+
+
+
+
+    <!-- Main Coding End -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Script JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

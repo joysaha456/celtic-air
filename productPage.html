@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<!--<![endif]-->
+<!--[if gte IE 9] <style type="text/css"> .gradient {filter: none;}</style><![endif]-->
+<!--[if !IE]><html lang="en"><![endif]-->
+<html lang="en-US" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Required meta tags for responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Favicon and touch icons -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png" />
+    <meta name="misapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="" />
+    <meta name="twitter:site" content="@twitter_username" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="" />
+    <!-- Open Graph data -->
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:site_name" content="R" />
+    <meta property="fb:admins" content="Facebook numeric ID" />
+    <!-- gmail verification -->
+    <meta name="google-site-verification" content="" />
+    <!-- Website title -->
+    <title>Product Page</title>
+    <link rel="stylesheet" href="assets/css/all.css" />
+    <link rel="stylesheet" href="assets/css/normalize.min.css" />
+    <link rel="stylesheet" href="assets/css/fonts-import.css" />
+    <link rel="stylesheet" href="assets/css/modal.css" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!-- jQuery (necessary for jQuery plugins) -->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+    <!-- Main Coding Start Here -->
+
+
+
+
+
+    <!-- modalFigure -->
+    <figure id="modalFigureWrapper">
+        <div id="login" class="modalMainFigure">
+            <div class="modal-background">
+                <div class="modal">
+                    <button class="btn-remove-modal">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <div class="modal-body">
+                        <!-- login-body  -->
+                        <div class="from-body login-body displayShow">
+                            <h3 class="modal-body-title">Log In</h3>
+                            <form class="auth-form login-form" action="" method="POST">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="" placeholder="Email" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="" placeholder="Password" />
+                                </div>
+                                <div class="form-group col-grid">
+                                    <a href="#" id="forgot">Forgot Password?</a>
+                                    <a href="#" id="register">Create Account</a>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn-fill btn-submit">Log In</button>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- register-body -->
+                        <div class="from-body register-body">
+                            <h3 class="modal-body-title">Register</h3>
+                            <form class="auth-form register-form" action="" method="POST">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="" placeholder="Email" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="" placeholder="Password" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="" placeholder="Confirm Password" />
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn-fill btn-submit">Create an Account</button>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- forgot-body -->
+                        <div class="from-body forgot-body">
+                            <h3 class="modal-body-title">Restore Password</h3>
+                            <form class="auth-form register-form" action="" method="POST">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="" placeholder="Email" />
+                                </div>
+                                <div class="form-group">
+                                    <p>
+                                        You will receive an email with instructions to restore your password.
+                                    </p>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn-fill btn-submit">Restore Password</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </figure>
+    <!--/ modalFigure -->
+
+
+
+
+
+    <!-- Markup for header -->
+    <header class="header">
+        <div class="container">
+            <div class="headerGrids">
+                <div class="gridItem logo">
+                    <a href="index.html">
+                        <img src="assets/img/icons/main-logo.svg" alt="logo" class="img-fluid" />
+                    </a>
+                </div>
+                <nav class="gridItem navigation">
+                    <ul id="main-menu">
+                        <li><a href="#">Our Store</a></li>
+                        <li><a href="#">Contact Us</a> </li>
+                        <li><a href="#" class="btn-modal" data-modal-id="login">Login</a></li>
+                        <li class="cartPreview cartPreviewToggle">
+                            <a href="#">
+                                <img src="assets/img/icons/003-cart.svg" alt="" class="img-fluid">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--/ Markup for header -->
+
+
+
+
+    <!-- summarySection -->
+    <section class="productDetails summarySection sectionPadding">
+        <div class="container">
+            <div class="productDetailsGrids summaryWrp">
+                <div class="gridItem">
+                    <div class="detailsImg">
+                        <img src="assets/img/detailsImg-1.png" alt="" class="img-fluid" />
+                    </div>
+                </div>
+                <div class="gridItem summaryWrp-info">
+                    <div class="summaryWrp-info-title">
+                        <h2>Pure Oxygen - Standard Can</h2>
+                        <span>$25</span>
+                        <p>
+                            Oxygen is the element essential for life. Celtic Air brings you our Pure Oxygen range.
+                            Oxygen treatment is proven to boost your immune system and invigorate your mind.
+                        </p>
+                    </div>
+                    <div class="summaryInpfield">
+                        <div class="flieldWrp">
+                            <label>Jar Size</label>
+                            <select class="selectField" id="quantity">
+                                <option selected value="standardCan">Standard Can</option>
+                                <option value="standardJar">Standard Jar</option>
+                            </select>
+                        </div>
+                        <div class="flieldWrp">
+                            <div class="product-colorwrp">
+                                <label>Quantity</label>
+                                <div class="quantity">
+                                    <div class='main'>
+                                        <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                                            class='down_count btn-quantity' title='Down'>
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                        <input class='counter' type="number" placeholder="value..." min="0" value='0' />
+                                        <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                            class='up_count btn-quantity' title='Up'>
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flieldWrp customMessageWrapper">
+                            <label>Message on Jar</label>
+                            <div class="customMessage">
+                                <label class="filedContainer">
+                                    <span class="filedContent">County name</span>
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="filedContainer">
+                                    <span class="filedContent">Custom message (+$10)</span>
+                                    <input type="radio" checked="checked" name="radio">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="flieldWrp flieldTextareaWrap">
+                                <label>Custom message</label>
+                                <textarea class="flieldTextarea">Maximum 200 characters</textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="addToCart">
+                        <button class="btn-fill">
+                            <i class="fas fa-shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/ summarySection -->
+
+
+
+
+    <!-- discountWrp -->
+    <div class="discountWrp">
+        <div class="container">
+            <div class="discountWrp-content">
+                <div class="discountWrp-info">
+                    <p>
+                        *Discounts apply only to cans of the same type. For example 2 Pure Oxygen - Standard cans will
+                        receive a 5% discount. 6
+                        Original - Wild Mountain cans will receive a separate 7.5% discount.
+                    </p>
+                </div>
+                <div class="discountWrp-info">
+                    <p>
+                        5% discount from 2 to 5 cans.
+                        7.5% discount from 6 to 9 cans.
+                        10% discount for 10 cans and more.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ discountWrp -->
+
+
+
+    <!-- Markup for productShowcase -->
+    <section class="productShowcase sectionPadding bgImg"
+        style="background-image: url(assets/img/originalRange-bg.png);">
+        <div class="container">
+            <div class="sectionTitle">
+                <h2 class="title text-white">Recently viewed</h2>
+            </div>
+            <div class="productShowcaseGrids">
+                <div class="gridItem">
+                    <div class="productShowcaseItem">
+                        <div class="showcaseImg">
+                            <img src="assets/img/product-1.png" alt="" class="img-fluid" />
+                        </div>
+                        <a href="#" class="productName">Irish Mist</a>
+                        <h3 class="productPrice">$25</h3>
+                        <div class="addToCart">
+                            <button class="btn-fill">Add to Cart</button>
+                            <div class="form-group">
+                                <label for="quantity">Qty:</label>
+                                <select class="form-control" id="quantity">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gridItem">
+                    <div class="productShowcaseItem">
+                        <div class="showcaseImg">
+                            <img src="assets/img/product-1.png" alt="" class="img-fluid" />
+                        </div>
+                        <a href="#" class="productName">Wild Mountain</a>
+                        <h3 class="productPrice">$25</h3>
+                        <div class="addToCart">
+                            <button class="btn-fill">Add to Cart</button>
+                            <div class="form-group">
+                                <label for="quantity">Qty:</label>
+                                <select class="form-control" id="quantity">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gridItem">
+                    <div class="productShowcaseItem">
+                        <div class="showcaseImg">
+                            <img src="assets/img/product-1.png" alt="" class="img-fluid" />
+                        </div>
+                        <a href="#" class="productName">Irish Meadow</a>
+                        <h3 class="productPrice">$25</h3>
+                        <div class="addToCart">
+                            <button class="btn-fill">Add to Cart</button>
+                            <div class="form-group">
+                                <label for="quantity">Qty:</label>
+                                <select class="form-control" id="quantity">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gridItem">
+                    <div class="productShowcaseItem">
+                        <div class="showcaseImg">
+                            <img src="assets/img/product-1.png" alt="" class="img-fluid" />
+                        </div>
+                        <a href="#" class="productName">Irish Storm</a>
+                        <h3 class="productPrice">$25</h3>
+                        <div class="addToCart">
+                            <button class="btn-fill">Add to Cart</button>
+                            <div class="form-group">
+                                <label for="quantity">Qty:</label>
+                                <select class="form-control" id="quantity">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/ Markup for productShowcase -->
+
+
+
+
+    <!-- Markup for feature -->
+    <section class="feature sectionPadding">
+        <div class="container">
+            <div class="featureGrids">
+                <div class="gridItem">
+                    <div class="featureItem">
+                        <img src="assets/img/feature-1.png" alt="featureIconImg" class="img-fluid" />
+                        <h4>Certified & Proven Irish Quality</h4>
+                    </div>
+                </div>
+                <div class="gridItem">
+                    <div class="featureItem">
+                        <img src="assets/img/feature-2.png" alt="featureIconImg" class="img-fluid" />
+                        <h4>Flexible discounts for everyone</h4>
+                    </div>
+                </div>
+                <div class="gridItem">
+                    <div class="featureItem">
+                        <img src="assets/img/feature-3.png" alt="featureIconImg" class="img-fluid" />
+                        <h4>Fast domestic & international shipping</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/ Markup for feature -->
+
+
+
+    <!-- Markup for newsletter -->
+    <section class="newsletter sectionPadding" style="background-image: url(assets/img/newsletter-bg.png);">
+        <div class="container">
+            <div class="newsletterGrids">
+                <div class="gridItem">
+                    <h3 class="newsletterTitle">Stay fresh & updated</h3>
+                </div>
+                <form class="gridItem newsletterForm" action="" method="POST">
+                    <div class="form-group">
+                        <input type="email" class="control form-control" id="exampleInputEmail" placeholder="Email" />
+                        <button type="submit" class="control btn-fill">Subscribe to our Newsletter</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Markup for newsletter -->
+
+
+
+
+    <!-- Markup for footer -->
+    <footer class="footer">
+        <div class="footerTop sectionPadding">
+            <div class="container">
+                <div class="footerTopGrids">
+                    <div class="gridItem">
+                        <a href="index.html" class="footerLogo">
+                            <img src="assets/img/icons/logowhite.svg" alt="footer-logo" class="img-fluid" />
+                        </a>
+                    </div>
+                    <div class="gridItem">
+                        <div class="footerBox">
+                            <h3 class="footerBoxTitle">Our Address</h3>
+                            <ul class="footerBoxList">
+                                <li>
+                                    <i class="icon fas fa-map-marker-alt"></i>
+                                    <a href="#">
+                                        180 Merrion Square <br /> Dublin, Ireland
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="icon fas fa-envelope"></i>
+                                    <a href="mailto:cs@celticair.ie">
+                                        cs@celticair.ie
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="icon fas fa-phone-alt"></i>
+                                    <a href="tel:+35318080028">
+                                        +353 1 8080 028
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="gridItem">
+                        <div class="footerBox">
+                            <h3 class="footerBoxTitle">Help & Support</h3>
+                            <ul class="footerBoxList notGrid">
+                                <li>
+                                    <a href="#">
+                                        Terms & Conditions
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Returns & Refunds
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Shipping & Delivery
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Privacy Policy
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        FAQs
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="gridItem">
+                        <div class="footerBox">
+                            <h3 class="footerBoxTitle">Follow us on Social Media</h3>
+                            <ul class="socialMedia">
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fab fa-pinterest-p"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <div class="container">
+                <div class="footerBottomGrids">
+                    <p>Copyright 2020 © Celtic Air</p>
+        
+                    <ul>
+                        <li>
+                            <a href=""><img src="assets/img/visa-logo.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="assets/img/mastercard.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="assets/img/paypal.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/ Markup for footer -->
+
+
+
+
+
+
+
+    <!-- Main Coding End -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Script JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

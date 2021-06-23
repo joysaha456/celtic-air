@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<!--<![endif]-->
+<!--[if gte IE 9] <style type="text/css"> .gradient {filter: none;}</style><![endif]-->
+<!--[if !IE]><html lang="en"><![endif]-->
+<html lang="en-US" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Required meta tags for responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Favicon and touch icons -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png" />
+    <meta name="misapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="" />
+    <meta name="twitter:site" content="@twitter_username" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="" />
+    <!-- Open Graph data -->
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:site_name" content="R" />
+    <meta property="fb:admins" content="Facebook numeric ID" />
+    <!-- gmail verification -->
+    <meta name="google-site-verification" content="" />
+    <!-- Website title -->
+    <title>My Order</title>
+    <link rel="stylesheet" href="assets/css/all.css" />
+    <link rel="stylesheet" href="assets/css/normalize.min.css" />
+    <link rel="stylesheet" href="assets/css/fonts-import.css" />
+    <link rel="stylesheet" href="assets/css/modal.css" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!-- jQuery (necessary for jQuery plugins) -->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+    <!-- Main Coding Start Here -->
+
+
+
+
+
+    <!-- modalFigure -->
+    <figure id="modalFigureWrapper">
+        <div id="login" class="modalMainFigure">
+            <div class="modal-background">
+                <div class="modal">
+                    <button class="btn-remove-modal">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <div class="modal-body">
+                        <!-- login-body  -->
+                        <div class="from-body login-body displayShow">
+                            <h3 class="modal-body-title">Log In</h3>
+                            <form class="auth-form login-form" action="" method="POST">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="" placeholder="Email" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="" placeholder="Password" />
+                                </div>
+                                <div class="form-group col-grid">
+                                    <a href="#" id="forgot">Forgot Password?</a>
+                                    <a href="#" id="register">Create Account</a>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn-fill btn-submit">Log In</button>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- register-body -->
+                        <div class="from-body register-body">
+                            <h3 class="modal-body-title">Register</h3>
+                            <form class="auth-form register-form" action="" method="POST">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="" placeholder="Email" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="" placeholder="Password" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="" placeholder="Confirm Password" />
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn-fill btn-submit">Create an Account</button>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- forgot-body -->
+                        <div class="from-body forgot-body">
+                            <h3 class="modal-body-title">Restore Password</h3>
+                            <form class="auth-form register-form" action="" method="POST">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="" placeholder="Email" />
+                                </div>
+                                <div class="form-group">
+                                    <p>
+                                        You will receive an email with instructions to restore your password.
+                                    </p>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn-fill btn-submit">Restore Password</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </figure>
+    <!--/ modalFigure -->
+
+
+
+
+
+    <!-- Markup for header -->
+    <header class="header">
+        <div class="container">
+            <div class="headerGrids">
+                <div class="gridItem logo">
+                    <a href="index.html">
+                        <img src="assets/img/icons/main-logo.svg" alt="logo" class="img-fluid" />
+                    </a>
+                </div>
+                <nav class="gridItem navigation">
+                    <ul id="main-menu">
+                        <li><a href="#">Our Store</a></li>
+                        <li><a href="#">Contact Us</a> </li>
+                        <li><a href="#" class="btn-modal" data-modal-id="login">Login</a></li>
+                        <li class="cartPreview cartPreviewToggle">
+                            <a href="#">
+                                <img src="assets/img/icons/003-cart.svg" alt="" class="img-fluid">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--/ Markup for header -->
+
+
+
+
+
+    <!-- Markup for pageBanner -->
+    <section id="pageTitle" class="pageTitle" style="background-image: url(assets/img/pageTitle-bg.png);">
+        <div class="container">
+            <div class="pageTitleInner">
+                <h2 class="pageTitleInner-title"> Checkout </h2>
+            </div>
+        </div>
+    </section>
+    <!--/ Markup for pageBanner -->
+
+
+
+
+
+    <!-- Markup for orderTable -->
+    <section class="orderTable sectionPadding">
+        <div class="container">
+            <div class="shippingWrpper">
+                <h3>Shipping address</h3>
+                <div class="inpFieldWrapper">
+                    <form action="">
+                        <input placeholder="First name" type="text" class="inpFields" />
+                        <input placeholder="Last name" type="text" class="inpFields" />
+                        <input placeholder="Company (optional)" type="text" class="inpFields" />
+                        <input placeholder="E-mail address" type="text" class="inpFields" />
+                        <input placeholder="Phone number" type="text" class="inpFields" />
+                        <input placeholder="Country" type="text" class="inpFields" />
+                        <input placeholder="Town / City" type="text" class="inpFields" />
+                        <input placeholder="County" type="text" class="inpFields" />
+                        <input placeholder="House number and Street name" type="text" class="inpFields" />
+                        <input placeholder="Apartment, suite, unit, etc. (optional) " type="text" class="inpFields" />
+                        <input placeholder="Order notes (optional) " type="text" class="inpFields optionalInp" />
+                        <label class="shippingContainer">Billing address same as shipping address.
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/ Markup for orderTable -->
+
+
+
+
+
+    <!-- Markup for footer -->
+    <footer class="footer">
+        <div class="footerTop sectionPadding">
+            <div class="container">
+                <div class="footerTopGrids">
+                    <div class="gridItem">
+                        <a href="index.html" class="footerLogo">
+                            <img src="assets/img/icons/logowhite.svg" alt="footer-logo" class="img-fluid" />
+                        </a>
+                    </div>
+                    <div class="gridItem">
+                        <div class="footerBox">
+                            <h3 class="footerBoxTitle">Our Address</h3>
+                            <ul class="footerBoxList">
+                                <li>
+                                    <i class="icon fas fa-map-marker-alt"></i>
+                                    <a href="#">
+                                        180 Merrion Square <br /> Dublin, Ireland
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="icon fas fa-envelope"></i>
+                                    <a href="mailto:cs@celticair.ie">
+                                        cs@celticair.ie
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="icon fas fa-phone-alt"></i>
+                                    <a href="tel:+35318080028">
+                                        +353 1 8080 028
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="gridItem">
+                        <div class="footerBox">
+                            <h3 class="footerBoxTitle">Help & Support</h3>
+                            <ul class="footerBoxList notGrid">
+                                <li>
+                                    <a href="#">
+                                        Terms & Conditions
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Returns & Refunds
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Shipping & Delivery
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Privacy Policy
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        FAQs
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="gridItem">
+                        <div class="footerBox">
+                            <h3 class="footerBoxTitle">Follow us on Social Media</h3>
+                            <ul class="socialMedia">
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fab fa-pinterest-p"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <div class="container">
+                <div class="footerBottomGrids">
+                    <p>Copyright 2020 © Celtic Air</p>
+        
+                    <ul>
+                        <li>
+                            <a href=""><img src="assets/img/visa-logo.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="assets/img/mastercard.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="assets/img/paypal.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/ Markup for footer -->
+
+
+
+
+
+
+
+    <!-- Main Coding End -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Script JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
